@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="app_name_personalizada">Mascotas MBC</string>
+
+    <string name="nombre_mascota_cardView">Nombre</string>
+
+    <string name="app_msn_toast1">Prueba de mansaje Toast</string>
+    <string name="app_msn_snackbar1">Prueba de mansaje Snackbar</string>
+    <string name="app_snackbar_btn_accion">Accion</string>
+
+</resources>

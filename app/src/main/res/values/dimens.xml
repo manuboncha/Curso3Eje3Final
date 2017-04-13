@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Cardview de Mascotas -->
+    <dimen name="margen_cardview">4dp</dimen>
+    <dimen name="corner_radius_cardView">4dp</dimen>
+    <dimen name="elevacion_cardView">4dp</dimen>
+    <dimen name="tamaño_letra_cardView">20sp</dimen>
+    <dimen name="margenes_laterales_cardView">4dp</dimen>
+
+    <!-- Actiobar personalizada de Mascotas -->
+    <dimen name="elevacion_actionbar">4dp</dimen>
+
+</resources>

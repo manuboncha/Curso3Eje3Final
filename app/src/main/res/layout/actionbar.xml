@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionbar_personal"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    android:textAlignment="center"
+    android:titleTextColor="@color/colorTituloToolbar"
+    android:navigationIcon="@drawable/huella_de_pata"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imgv_icono"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:src="@drawable/huella_de_pata"
+            android:layout_weight="0.08" />
+        <TextView
+            android:id="@+id/txtv_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mascotas"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="0.85"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/imgv_favorito"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:src="@drawable/christmas_star_48"
+
+            />
+
+    </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
